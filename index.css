@@ -1,0 +1,51 @@
+body {
+    background-color: bisque;
+
+}
+#nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:darkgray;
+}
+#nav li a{
+    float: right;
+}
+#logo {
+    float: left;
+}
+#nav li a {
+    display: block;
+    color: white;
+    padding: 25px 15px;
+    text-decoration: none;
+}
+#nav:hover li a{
+    transform: scale(1.5px);
+    filter: blur(1);
+    transition: 0.5s;
+}
+#nav li a:hover {
+    transform: scale(1.5);
+    background-color: chocolate;
+    filter: blur(0) ;
+    
+}
+#nav h2 {
+    font-size: 25px;
+    color: rebeccapurple;
+    font-style: oblique;
+    padding-left: 80px;
+
+}
+#profile {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+
+}
+#profile h2{
+    text-align: center;
+    color: red;
+}
