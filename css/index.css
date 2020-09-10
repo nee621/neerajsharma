@@ -1,1 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+.text-primary {
+    color: #3693ff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,168,255),rgba(0,0,0,0)), url('../image/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ 
+}
+.name{
+	text-decoration-color: 
+	font-size: 130%;
+	text-transform: uppercase;
+	text
+}
+.navbar-brand{
+	width: 100%;
+	font-size: 180%;
+
+}
 
